@@ -21,6 +21,7 @@ Find your usb key disk number with :
 `diskutil list`
 
 Mount partition with :
+
 `mkdir /Volumes/EFI`
 
 `mount -t msdos /dev/diskXs1 /Volumes/EFI` X being the disk number found before
