@@ -22,6 +22,7 @@ Find your usb key disk number with :
 
 Mount partition with :
 `mkdir /Volumes/EFI`
+
 `mount -t msdos /dev/diskXs1 /Volumes/EFI` X being the disk number found before
 
 Replace CLOVER (`/Volumes/EFI/EFI/CLOVER`) folder in the EFI partition of your key by the one in this repo.
