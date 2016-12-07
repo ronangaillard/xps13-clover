@@ -1,6 +1,8 @@
 # xps13-clover
 Updated OS X Sierra Bootloader for Dell XPS 13
 
+![Screenshot](/screenshots/screen1.png)
+
 This repo contains everything you need for a working bootloader to boot OS X Sierra (tested with 10.12.1) on your XPS 13 9350 !
 
 ## Setting up the installer
