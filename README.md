@@ -47,7 +47,7 @@ Don't forget to run Multibeast at the end to install Clover to your startup disk
 I would recommend using KextUtility to install drivers to your new system. You can do it using the command line, but let's jsut be lazy. You can find KextUtility here : http://cvad-mac.narod.ru/index/0-4
 Use the soft to install driver in the `Kexts` folder :
 - `ACPIBatteryManager.kext` : makes the battery part work (checking the percent capacity of the battery in the menu bar, ...)
-- `VoodooPS2Controller.kext` : driver for the integrated keyboard and touchpad (no multi touch yet, but working on it ! )
+- `VoodooPS2Controller.kext` : driver for the integrated keyboard and touchpad (no multi touch yet but scrolling and still a bit slow, but working on it ! )
 
 ## What does/does not work ?
 ### Working
@@ -59,7 +59,7 @@ Use the soft to install driver in the `Kexts` folder :
 - Sound (drivers not in repo yet !)
 - NVMe SSD
 - Power Management
-- Touchpad (basic operations, no multitouch)
+- Touchpad (basic operations, no multitouch but scrolling, quite slow yet)
 - USB-C Video Output (DisplayPort + HDMI)
 - Webcam
 - WiFi (with new mini PCI card, I recommend DW1550, quite cheap on ebay)
