@@ -43,7 +43,7 @@ Just follow the steps and enjoy !
 Always remember to back up your important data !
 Don't forget to run Multibeast at the end to install Clover to your startup disk, and copy the repo's CLOVER folder to your startup disk EFI partition.
 
-## Getting drivers install
+## Getting drivers installed
 I would recommend using KextUtility to install drivers to your new system. You can do it using the command line, but let's jsut be lazy. You can find KextUtility here : http://cvad-mac.narod.ru/index/0-4
 Use the soft to install driver in the `Kexts` folder :
 - `ACPIBatteryManager.kext` : makes the battery part work (checking the percent capacity of the battery in the menu bar, ...)
