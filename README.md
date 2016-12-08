@@ -43,6 +43,12 @@ Just follow the steps and enjoy !
 Always remember to back up your important data !
 Don't forget to run Multibeast at the end to install Clover to your startup disk, and copy the repo's CLOVER folder to your startup disk EFI partition.
 
+## Getting drivers install
+I would recommend using KextUtility to install drivers to your new system. You can do it using the command line, but let's jsut be lazy. You can find KextUtility here : http://cvad-mac.narod.ru/index/0-4
+Use the soft to install driver in the `Kexts` folder :
+- `ACPIBatteryManager.kext` : makes the battery part work (checking the percent capacity of the battery in the menu bar, ...)
+- `VoodooPS2Controller.kext` : driver for the integrated keyboard and touchpad (no multi touch yet, but working on it ! )
+
 ## What does/does not work ?
 ### Working
 - Battery Indicator
@@ -50,17 +56,17 @@ Don't forget to run Multibeast at the end to install Clover to your startup disk
 - Display Brightness Slider
 - Graphics (Intel HD540 Acceleration)
 - Keyboard
-- Sound
+- Sound (drivers not in repo yet !)
 - NVMe SSD
 - Power Management
 - Touchpad (basic operations, no multitouch)
 - USB-C Video Output (DisplayPort + HDMI)
 - Webcam
 - WiFi (with new mini PCI card, I recommend DW1550, quite cheap on ebay)
+- Display Brightness Hotkeys
 
 ### Not Working
-- Display Brightness Hotkeys
-- SD Card Reader
+- SD Card Reader (not tested yet but should not work)
 
 ## Future improvement
 In order to fix a few issues I need to patch DSDT, not done yet but should be ready soon !
